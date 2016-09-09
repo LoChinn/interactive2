@@ -1,5 +1,5 @@
 h1 {
-	font-family: Helvetica;
+	font-family: 'Amatic SC', cursive;
 	font-size: 70px;
 	color: black;
 	position: center;
@@ -16,17 +16,19 @@ body {
 #exercises {
 	margin-left: 120px;
 	margin-top: 150px;
+	font-family: 'Amatic SC', cursive;
 
 }
 
 #projects {
 	margin-left: 120px;
 	margin-top: 50px;
+	font-family: 'Amatic SC', cursive;
 }
 
 
 #container {
-	font-family: 'Baloo Bhaina', cursive;
+	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
 	color: #4A8870;
 	position: center;
@@ -37,7 +39,7 @@ body {
 }
 
 #container2 {
-	font-family: 'Baloo Bhaina', cursive;
+	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
 	color: #4A8870;
 	position: center;
