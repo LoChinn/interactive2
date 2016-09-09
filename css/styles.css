@@ -1,0 +1,49 @@
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+	color: black;
+	position: center;
+	letter-spacing: 5px;
+
+	
+
+}
+
+body {
+	background-color: #FFD649;
+}
+
+#exercises {
+	margin-left: 120px;
+	margin-top: 150px;
+
+}
+
+#projects {
+	margin-left: 120px;
+	margin-top: 50px;
+}
+
+
+#container {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	color: #4A8870;
+	position: center;
+	width: 300px;
+	margin-top: -30px;
+	text-decoration: none;
+
+}
+
+#container2 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	color: #4A8870;
+	position: center;
+	width: 300px;
+	margin-top: -30px;
+	text-decoration: none;
+
+
+	}
