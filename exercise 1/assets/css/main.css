@@ -1,0 +1,249 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 1150px;
+	height: 1000px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.canvas2 {
+	width: 1150px;
+	height: 1000px;
+	margin: 100px auto;
+	background: #D1D1D1;
+	position: relative;
+}
+
+.vase {
+	left: 550px;
+	top: 300px;
+	position: absolute;
+	opacity: 0.6;
+}
+
+#bowl {
+	top:60px;
+	position: absolute;
+   display:block;
+   width: 120px;
+   height: 150px;
+   background-color: #84CE3E;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
+#neck {
+	left: 24px;
+	top:-10px;
+	position: absolute;
+	width: 80px;
+	height: 130px;
+	background: #1e90ff;
+	-webkit-clip-path: polygon(33% 0, 63% 0, 84% 100%, 10% 100%);
+clip-path: polygon(33% 0, 63% 0, 84% 100%, 10% 100%);
+	background: #84CE3E;
+}
+
+.stem {
+	position: absolute;
+	width: 5px;
+	height: 270px;
+	background: #6B9F2D;
+	left: 612px;
+	top: 190px;
+	transform: rotate(175deg);
+	
+}
+
+.flower {
+	left: 516px;
+	top: 50px;
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	background: #EA861A;
+	-webkit-clip-path: polygon(43% 55%, 19% 40%, 44% 70%, 45% 79%, 0 55%, 49% 100%, 77% 38%, 53% 70%, 51% 63%, 64% 29%, 50% 45%, 43% 28%);
+clip-path: polygon(43% 55%, 19% 40%, 44% 70%, 45% 79%, 0 55%, 49% 100%, 77% 38%, 53% 70%, 51% 63%, 64% 29%, 50% 45%, 43% 28%);
+
+}
+
+.mat {
+	left: 100px;
+	top: 450px;
+	position: absolute;
+	width: 930px;
+	height: 280px;
+	background: #E62EB7;
+	-webkit-clip-path: polygon(0 0, 80% 0%, 90% 36%, 11% 36%);
+clip-path: polygon(0 0, 80% 0%, 90% 36%, 11% 36%);
+}
+
+#bottom {
+	top:390px;
+	left: 480px;
+	position: absolute;
+   width: 100px;
+   height: 130px;
+   background-color: #E6C22E;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
+#top1 {
+	left: 465px;
+	top: 320px;
+	position: absolute;
+	width: 130px;
+	height: 80px;
+	background: #2D9F55;
+	-webkit-clip-path: polygon(28% 5%, 43% 82%, 11% 20%, 40% 94%, 49% 97%, 60% 93%, 81% 45%, 59% 86%, 72% 20%, 54% 81%, 59% 0, 48% 81%);
+clip-path: polygon(28% 5%, 43% 82%, 11% 20%, 40% 94%, 49% 97%, 60% 93%, 81% 45%, 59% 86%, 72% 20%, 54% 81%, 59% 0, 48% 81%);
+}
+
+#top2 {
+	left: 455px;
+	top: 300px;
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	background: #6B9F2D;
+	-webkit-clip-path: polygon(28% 5%, 43% 82%, 18% 18%, 40% 94%, 49% 97%, 60% 93%, 79% 45%, 59% 86%, 72% 20%, 54% 81%, 59% 0, 48% 81%);
+clip-path: polygon(28% 5%, 43% 82%, 18% 18%, 40% 94%, 49% 97%, 60% 93%, 79% 45%, 59% 86%, 72% 20%, 54% 81%, 59% 0, 48% 81%);
+}
+
+#top3 {
+	left: 465px;
+	top: 305px;
+	position: absolute;
+	width: 130px;
+	height: 90px;
+	background: #2D9F55;
+	-webkit-clip-path: polygon(28% 5%, 43% 82%, 18% 18%, 40% 94%, 49% 97%, 60% 93%, 79% 45%, 59% 86%, 72% 20%, 54% 81%, 59% 0, 48% 81%);
+clip-path: polygon(28% 5%, 43% 82%, 18% 18%, 40% 94%, 49% 97%, 60% 93%, 79% 45%, 59% 86%, 72% 20%, 54% 81%, 59% 0, 48% 81%);
+}
+
+#top4 {
+	left: 465px;
+	top: 300px;
+	position: absolute;
+	width: 130px;
+	height: 80px;
+	background: #6B9F2D;
+	-webkit-clip-path: polygon(28% 5%, 43% 82%, 11% 20%, 40% 94%, 49% 97%, 60% 93%, 75% 35%, 59% 86%, 61% 16%, 54% 81%, 45% 0, 48% 81%);
+clip-path: polygon(28% 5%, 43% 82%, 11% 20%, 40% 94%, 49% 97%, 60% 93%, 75% 35%, 59% 86%, 61% 16%, 54% 81%, 45% 0, 48% 81%);
+
+}
+
+#top5 {
+	left: 455px;
+	top: 290px;
+	position: absolute;
+	width: 150px;
+	height: 110px;
+	background: #2D9F55;
+	-webkit-clip-path: polygon(31% 5%, 43% 82%, 20% 18%, 40% 94%, 49% 97%, 60% 93%, 87% 15%, 62% 72%, 70% 7%, 55% 70%, 45% 0, 47% 73%);
+clip-path: polygon(31% 5%, 43% 82%, 20% 18%, 40% 94%, 49% 97%, 60% 93%, 87% 15%, 62% 72%, 70% 7%, 55% 70%, 45% 0, 47% 73%);
+}
+
+#top6 {
+	left: 465px;
+	top: 280px;
+	position: absolute;
+	width: 130px;
+	height: 100px;
+	background: #6B9F2D;
+	-webkit-clip-path: polygon(28% 5%, 43% 82%, 18% 18%, 40% 94%, 49% 97%, 60% 93%, 79% 45%, 59% 86%, 72% 20%, 54% 81%, 59% 0, 48% 81%);
+clip-path: polygon(28% 5%, 43% 82%, 18% 18%, 40% 94%, 49% 97%, 60% 93%, 79% 45%, 59% 86%, 72% 20%, 54% 81%, 59% 0, 48% 81%);
+}
+
+#top7 {
+	left: 465px;
+	top: 290px;
+	position: absolute;
+	width: 130px;
+	height: 80px;
+	background: #2D9F55;
+	-webkit-clip-path: polygon(28% 5%, 43% 82%, 11% 20%, 40% 94%, 49% 97%, 60% 93%, 75% 35%, 59% 86%, 61% 16%, 54% 81%, 45% 0, 48% 81%);
+clip-path: polygon(28% 5%, 43% 82%, 11% 20%, 40% 94%, 49% 97%, 60% 93%, 75% 35%, 59% 86%, 61% 16%, 54% 81%, 45% 0, 48% 81%);
+
+}
+
+#top8 {
+	left: 455px;
+	top: 250px;
+	position: absolute;
+	width: 150px;
+	height: 110px;
+	background: #6B9F2D;
+	-webkit-clip-path: polygon(31% 5%, 43% 82%, 20% 18%, 40% 94%, 49% 97%, 60% 93%, 87% 15%, 62% 72%, 70% 7%, 55% 70%, 45% 0, 47% 73%);
+clip-path: polygon(31% 5%, 43% 82%, 20% 18%, 40% 94%, 49% 97%, 60% 93%, 87% 15%, 62% 72%, 70% 7%, 55% 70%, 45% 0, 47% 73%);
+}
+
+#top9 {
+	left: 465px;
+	top: 285px;
+	position: absolute;
+	width: 130px;
+	height: 100px;
+	background: #2D9F55;
+	-webkit-clip-path: polygon(31% 5%, 43% 82%, 20% 18%, 40% 94%, 49% 97%, 60% 93%, 87% 15%, 62% 72%, 70% 7%, 55% 70%, 45% 0, 47% 73%);
+clip-path: polygon(31% 5%, 43% 82%, 20% 18%, 40% 94%, 49% 97%, 60% 93%, 87% 15%, 62% 72%, 70% 7%, 55% 70%, 45% 0, 47% 73%);
+}
+
+#top10 {
+	left: 465px;
+	top: 265px;
+	position: absolute;
+	width: 130px;
+	height: 100px;
+	background: #2D9F55;
+	-webkit-clip-path: polygon(31% 5%, 43% 82%, 20% 18%, 40% 94%, 49% 97%, 60% 93%, 87% 15%, 62% 72%, 70% 7%, 55% 70%, 45% 0, 47% 73%);
+clip-path: polygon(31% 5%, 43% 82%, 20% 18%, 40% 94%, 49% 97%, 60% 93%, 87% 15%, 62% 72%, 70% 7%, 55% 70%, 45% 0, 47% 73%);
+}
+
+
+.circle {
+	position: absolute;
+	left: 270px;
+	top: 340px;
+	width: 150px;
+	opacity: .9;
+	height: 150px;
+	background: white;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+}
+
+.oval {
+	position: absolute;
+	left: 260px;
+	top: 470px;
+	width: 200px;
+	height: 30px;
+	background: #B51896;
+	-moz-border-radius: 70px / 50px;
+	-webkit-border-radius: 70px / 50px;
+	border-radius: 70px / 50px;
+}
+
+.oval2 {
+	position: absolute;
+	left: 560px;
+	top: 490px;
+	width: 200px;
+	height: 30px;
+	background: #B51896;
+	-moz-border-radius: 70px / 50px;
+	-webkit-border-radius: 70px / 50px;
+	border-radius: 70px / 50px;
+}
+
