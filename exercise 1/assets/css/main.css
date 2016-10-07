@@ -69,6 +69,7 @@ clip-path: polygon(33% 0, 63% 0, 84% 100%, 10% 100%);
 	position: absolute;
 	width: 180px;
 	height: 180px;
+	transform: rotate(174deg);
 	background: #EA861A;
 	-webkit-clip-path: polygon(43% 55%, 19% 40%, 44% 70%, 45% 79%, 0 55%, 49% 100%, 77% 38%, 53% 70%, 51% 63%, 64% 29%, 50% 45%, 43% 28%);
 clip-path: polygon(43% 55%, 19% 40%, 44% 70%, 45% 79%, 0 55%, 49% 100%, 77% 38%, 53% 70%, 51% 63%, 64% 29%, 50% 45%, 43% 28%);
