@@ -1,0 +1,378 @@
+.a {
+	position: absolute;
+}
+
+.b{
+	position: absolute;
+	left: 200px;
+}
+
+.c{
+	position: absolute;
+	left: 400px;
+}
+
+.d{
+	position: absolute;
+	left: 600px;
+}
+
+.e{
+	position: absolute;
+	left: 800px;
+}
+
+.f{
+	position: absolute;
+	left: 1000px;
+}
+
+.g{
+	position: absolute;
+	left: 1200px;
+}
+
+.h{
+	position: absolute;
+	left: 1400px;
+}
+
+.i{
+	position: absolute;
+	left: 1600px;
+}
+
+.j{
+	position: absolute;
+	left: 1800px;
+}
+
+.k{
+	position: absolute;
+	left: 2000px;
+}
+
+.l{
+	position: absolute;
+	left: 2200px;
+}
+
+.m{
+	position: absolute;
+	left: 2400px;
+}
+
+.n{
+	position: absolute;
+	left: 2600px;
+}
+
+.o{
+	position: absolute;
+	left: 2800px;
+}
+
+.p{
+	position: absolute;
+	left: 3000px;
+}
+
+.q{
+	position: absolute;
+	left: 3200px;
+}
+
+.r{
+	position: absolute;
+	left: 3400px;
+}
+
+.s{
+	position: absolute;
+	left: 3600px;
+}
+
+.t{
+	position: absolute;
+	left: 3800px;
+}
+
+.u{
+	position: absolute;
+	left: 4000px;
+}
+
+.v{
+	position: absolute;
+	left: 4200px;
+}
+
+.w{
+	position: absolute;
+	left: 4400px;
+}
+
+.x{
+	position: absolute;
+	left: 4600px;
+}
+
+.y{
+	position: absolute;
+	left: 4800px;
+}
+
+.z{
+	position: absolute;
+	left: 5000px;
+}
+
+.zero{
+	position: absolute;
+	left: 5200px;
+}
+
+.one{
+	position: absolute;
+	left: 5400px;
+}
+
+.two{
+	position: absolute;
+	left: 5600px;
+}
+
+.three{
+	position: absolute;
+	left: 5800px;
+}
+
+.four{
+	position: absolute;
+	left: 6000px;
+}
+
+
+.five{
+	position: absolute;
+	left: 6200px;
+}
+
+.six{
+	position: absolute;
+	left: 6400px;
+}
+
+.seven{
+	position: absolute;
+	left: 6600px;
+}
+
+
+.eight{
+	position: absolute;
+	left: 6800px;
+}
+
+.nine{
+	position: absolute;
+	left: 7000px;
+}
+
+
+
+#circle1 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: #EF60A3;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#rectangle {
+	width: 10px;
+	height: 85px;
+	left: 7px;
+	top: 7px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle1 {
+	width: 10px;
+	height: 42.5px;
+	left: 7px;
+	top: 48px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle12 {
+	width: 10px;
+	height: 42.5px;
+	left: 7px;
+	top: 10px;
+	position: absolute;
+	background: #DBE442;
+}
+
+
+
+#rectangle2 {
+	width: 10px;
+	height: 85px;
+	left: 83px;
+	top: 7px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle22 {
+	width: 10px;
+	height: 42.5px;
+	left: 83px;
+	top: 48px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle23 {
+	width: 10px;
+	height: 42.5px;
+	left: 83px;
+	top: 10px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle3 {
+	width: 85px;
+	height: 10px;
+	left: 8px;
+	top: 7px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle32 {
+	width: 45px;
+	height: 10px;
+	left: 8px;
+	top: 7px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle4 {
+	width: 100px;
+	height: 10px;
+	left: px;
+	top: 48px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle42 {
+	width: 50px;
+	height: 10px;
+	left: 50px;
+	top: 48px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle43 {
+	width: 50px;
+	height: 10px;
+	left: 0px;
+	top: 48px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle5 {
+	width: 85px;
+	height: 10px;
+	left: 8px;
+	top: 82px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle6 {
+	width: 10px;
+	height: 100px;
+	left: 45px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle62 {
+	width: 10px;
+	height: 50px;
+	left: 45px;
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle7 {
+	width: 10px;
+	height: 100px;
+	left: 45px;
+	top: px;
+	transform: rotate(315deg);
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle72 {
+	width: 10px;
+	height: 55px;
+	left: 60px;
+	top: 40px;
+	transform: rotate(315deg);
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle73 {
+	width: 10px;
+	height: 50px;
+	left: 60px;
+	top: 45px;
+	transform: rotate(315deg);
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle8 {
+	width: 10px;
+	height: 100px;
+	left: 45px;
+	top: px;
+	transform: rotate(45deg);
+	position: absolute;
+	background: #DBE442;
+}
+
+#rectangle82 {
+	width: 10px;
+	height: 55px;
+	left: 60px;
+	top: 5px;
+	transform: rotate(45deg);
+	position: absolute;
+	background: #DBE442;
+}
+
+#circle2 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: #EF60A3;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
