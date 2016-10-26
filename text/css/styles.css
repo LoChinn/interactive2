@@ -1,5 +1,6 @@
 .box{
 	width: 400px;
+	height: 1000px;
 }
 
 
@@ -9,178 +10,213 @@
 
 .b{
 	position: absolute;
-	left: 200px;
+	float: left;
+	left : 200px;
 }
 
 .c{
 	position: absolute;
+	float: left;
 	left: 400px;
 }
 
 .d{
 	position: absolute;
+	float: left;
 	left: 600px;
 }
 
 .e{
 	position: absolute;
+	float: left;
 	left: 800px;
 }
 
 .f{
 	position: absolute;
+	float: left;
 	left: 1000px;
 }
 
 .g{
 	position: absolute;
+	float: left;
 	left: 1200px;
 }
 
 .h{
 	position: absolute;
+	float: left;
 	left: 1400px;
 }
 
 .i{
 	position: absolute;
+	float: left;
 	left: 1600px;
 }
 
 .j{
 	position: absolute;
+	float: left;
 	left: 1800px;
 }
 
 .k{
 	position: absolute;
+	float: left;
 	left: 2000px;
 }
 
 .l{
 	position: absolute;
+	float: left;
 	left: 2200px;
 }
 
 .m{
 	position: absolute;
+	float: left;
 	left: 2400px;
 }
 
 .n{
 	position: absolute;
+	float: left;
 	left: 2600px;
 }
 
 .o{
 	position: absolute;
+	float: left;
 	left: 2800px;
 }
 
 .p{
 	position: absolute;
+	float: left;
 	left: 3000px;
 }
 
 .q{
 	position: absolute;
+	float: left;
 	left: 3200px;
 }
 
 .r{
 	position: absolute;
+	float: left;
 	left: 3400px;
 }
 
 .s{
 	position: absolute;
+	float: left;
 	left: 3600px;
 }
 
 .t{
 	position: absolute;
+	float: left;
 	left: 3800px;
 }
 
 .u{
 	position: absolute;
+	float: left;
 	left: 4000px;
 }
 
 .v{
 	position: absolute;
+	float: left;
 	left: 4200px;
 }
 
 .w{
 	position: absolute;
+	float: left;
 	left: 4400px;
 }
 
 .x{
 	position: absolute;
+	float: left;
 	left: 4600px;
 }
 
 .y{
 	position: absolute;
+	float: left;
 	left: 4800px;
 }
 
 .z{
 	position: absolute;
+	float: left;
 	left: 5000px;
 }
 
 .zero{
 	position: absolute;
+	float: left;
 	left: 5200px;
 }
 
 .one{
 	position: absolute;
+	float: left;
 	left: 5400px;
 }
 
 .two{
 	position: absolute;
+	float: left;
 	left: 5600px;
 }
 
 .three{
 	position: absolute;
+	float: left;
 	left: 5800px;
 }
 
 .four{
 	position: absolute;
+	float: left;
 	left: 6000px;
 }
 
 
 .five{
 	position: absolute;
+	float: left;
 	left: 6200px;
 }
 
 .six{
 	position: absolute;
+	float: left;
 	left: 6400px;
 }
 
 .seven{
 	position: absolute;
+	float: left;
 	left: 6600px;
 }
 
 
 .eight{
 	position: absolute;
+	float: left;
 	left: 6800px;
 }
 
 .nine{
 	position: absolute;
+	float: left;
 	left: 7000px;
 }
 
