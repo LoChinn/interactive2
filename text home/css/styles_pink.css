@@ -310,186 +310,251 @@
 
 .a {
 	position: absolute;
+	top: 1000px;
+	bottom: 500px;
+	
 }
 
 .b{
 	position: absolute;
 	float: left;
 	left : 200px;
+	top: 1000px;
+	bottom: 500px;
+	
 }
 
 .c{
 	position: absolute;
 	float: left;
 	left: 400px;
+	top: 1000px;
+	bottom: 500px;
+	
 }
 
 .d{
 	position: absolute;
 	float: left;
 	left: 600px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .e{
 	position: absolute;
 	float: left;
 	left: 800px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .f{
 	position: absolute;
 	float: left;
 	left: 1000px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .g{
 	position: absolute;
 	float: left;
 	left: 1200px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .h{
 	position: absolute;
 	float: left;
 	left: 1400px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .i{
 	position: absolute;
 	float: left;
 	left: 1600px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .j{
 	position: absolute;
 	float: left;
 	left: 1800px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .k{
 	position: absolute;
 	float: left;
 	left: 2000px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .l{
 	position: absolute;
 	float: left;
 	left: 2200px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .m{
 	position: absolute;
 	float: left;
 	left: 2400px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .n{
 	position: absolute;
 	float: left;
 	left: 2600px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .o{
 	position: absolute;
 	float: left;
 	left: 2800px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .p{
 	position: absolute;
 	float: left;
 	left: 3000px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .q{
 	position: absolute;
 	float: left;
 	left: 3200px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .r{
 	position: absolute;
 	float: left;
 	left: 3400px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .s{
 	position: absolute;
 	float: left;
 	left: 3600px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .t{
 	position: absolute;
 	float: left;
 	left: 3800px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .u{
 	position: absolute;
 	float: left;
 	left: 4000px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .v{
 	position: absolute;
 	float: left;
 	left: 4200px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .w{
 	position: absolute;
 	float: left;
 	left: 4400px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .x{
 	position: absolute;
 	float: left;
 	left: 4600px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .y{
 	position: absolute;
 	float: left;
 	left: 4800px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .z{
 	position: absolute;
 	float: left;
 	left: 5000px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .zero{
 	position: absolute;
 	float: left;
 	left: 5200px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .one{
 	position: absolute;
 	float: left;
 	left: 5400px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .two{
 	position: absolute;
 	float: left;
 	left: 5600px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .three{
 	position: absolute;
 	float: left;
 	left: 5800px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .four{
 	position: absolute;
 	float: left;
 	left: 6000px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 
@@ -497,18 +562,24 @@
 	position: absolute;
 	float: left;
 	left: 6200px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .six{
 	position: absolute;
 	float: left;
 	left: 6400px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .seven{
 	position: absolute;
 	float: left;
 	left: 6600px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 
@@ -516,12 +587,17 @@
 	position: absolute;
 	float: left;
 	left: 6800px;
+	top: 1000px;
+	bottom: 500px;
 }
 
 .nine{
 	position: absolute;
 	float: left;
 	left: 7000px;
+	top: 1000px;
+	bottom: 500px;
+	padding-bottom: 500px;
 }
 
 
@@ -534,6 +610,7 @@
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+
 }
 
 #rectangle {
