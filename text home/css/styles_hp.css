@@ -110,6 +110,12 @@
 	left: -3950px;
 }
 
+.box_5{
+	position: absolute;
+	top:690px;
+	left: -3950px;
+}
+
 @keyframes bounce{
   from, 20%, 53%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -379,6 +385,42 @@
 	left: 5250px;
 }
 
+.quote1{
+	position: absolute;
+	float: left;
+	left: 5250px;
+}
+
+.period{
+	position: absolute;
+	float: left;
+	left: 5250px;
+}
+
+.comma{
+	position: absolute;
+	float: left;
+	left: 5250px;
+}
+
+.exclamation{
+	position: absolute;
+	float: left;
+	left: 5250px;
+}
+
+.question{
+	position: absolute;
+	float: left;
+	left: 5250px;
+}
+
+
+.quote2{
+	position: absolute;
+	float: left;
+	left: 5250px;
+}
 
 
 .circle1 {
