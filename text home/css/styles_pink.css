@@ -1,3 +1,8 @@
+#song{
+	height: -1000px;
+	z-index: -1;
+}
+
 .rectangle {
 	width: 200vh;
 	height: 253px;
@@ -34,32 +39,68 @@
 
 }
 
+
+
+
+
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(0, 500px);
+  }
+  
+  80% {
+    transform: translate(0, -150px);
+  }
+}
+
+
+
 #g{
 	position: absolute;
 	left: 300px;
-	top: 310px;
+	top: 200px;
 	z-index: 1;
+	animation: nudge 3s linear infinite alternate;
 }
+
+
 
 #r{
 	position: absolute;
 	left: 450px;
-	top: 310px;
+	top: 200px;
 	z-index: 1;
+	/*animation: bounce 4s infinite;*/
+	animation: nudge 4s linear infinite alternate;
+	/*animation-delay: 2s;*/
 }
+
+
+
+
 
 #o{
 	position: absolute;
 	left: 600px;
 	top:310px;
 	z-index: 1;
+	animation: nudge 3s linear infinite alternate;
+	
+
 }
 
 #o2{
 	position: absolute;
 	left: 750px;
-	top:310px;
+	top:110px;
 	z-index: 1;
+	animation: nudge 4s linear infinite alternate;
+	
 }
 
 #v{
@@ -67,13 +108,17 @@
 	left: 900px;
 	top:310px;
 	z-index: 1;
+	animation: nudge 2.5s linear infinite alternate;
+	
 }
 
 #y{
 	position: absolute;
 	left: 1050px;
-	top:310px;
+	top:250px;
 	z-index: 1;
+	animation: nudge 2s linear infinite alternate;
+	
 }
 
 #circle1{
@@ -86,6 +131,7 @@
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	z-index: 2;
+
 	
 }
 
@@ -306,496 +352,5 @@
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	z-index: 2;
-}
-
-.a {
-	position: absolute;
-	top: 1000px;
-	bottom: 500px;
-	
-}
-
-.b{
-	position: absolute;
-	float: left;
-	left : 200px;
-	top: 1000px;
-	bottom: 500px;
-	
-}
-
-.c{
-	position: absolute;
-	float: left;
-	left: 400px;
-	top: 1000px;
-	bottom: 500px;
-	
-}
-
-.d{
-	position: absolute;
-	float: left;
-	left: 600px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.e{
-	position: absolute;
-	float: left;
-	left: 800px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.f{
-	position: absolute;
-	float: left;
-	left: 1000px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.g{
-	position: absolute;
-	float: left;
-	left: 1200px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.h{
-	position: absolute;
-	float: left;
-	left: 1400px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.i{
-	position: absolute;
-	float: left;
-	left: 1600px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.j{
-	position: absolute;
-	float: left;
-	left: 1800px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.k{
-	position: absolute;
-	float: left;
-	left: 2000px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.l{
-	position: absolute;
-	float: left;
-	left: 2200px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.m{
-	position: absolute;
-	float: left;
-	left: 2400px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.n{
-	position: absolute;
-	float: left;
-	left: 2600px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.o{
-	position: absolute;
-	float: left;
-	left: 2800px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.p{
-	position: absolute;
-	float: left;
-	left: 3000px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.q{
-	position: absolute;
-	float: left;
-	left: 3200px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.r{
-	position: absolute;
-	float: left;
-	left: 3400px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.s{
-	position: absolute;
-	float: left;
-	left: 3600px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.t{
-	position: absolute;
-	float: left;
-	left: 3800px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.u{
-	position: absolute;
-	float: left;
-	left: 4000px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.v{
-	position: absolute;
-	float: left;
-	left: 4200px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.w{
-	position: absolute;
-	float: left;
-	left: 4400px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.x{
-	position: absolute;
-	float: left;
-	left: 4600px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.y{
-	position: absolute;
-	float: left;
-	left: 4800px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.z{
-	position: absolute;
-	float: left;
-	left: 5000px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.zero{
-	position: absolute;
-	float: left;
-	left: 5200px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.one{
-	position: absolute;
-	float: left;
-	left: 5400px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.two{
-	position: absolute;
-	float: left;
-	left: 5600px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.three{
-	position: absolute;
-	float: left;
-	left: 5800px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.four{
-	position: absolute;
-	float: left;
-	left: 6000px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-
-.five{
-	position: absolute;
-	float: left;
-	left: 6200px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.six{
-	position: absolute;
-	float: left;
-	left: 6400px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.seven{
-	position: absolute;
-	float: left;
-	left: 6600px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-
-.eight{
-	position: absolute;
-	float: left;
-	left: 6800px;
-	top: 1000px;
-	bottom: 500px;
-}
-
-.nine{
-	position: absolute;
-	float: left;
-	left: 7000px;
-	top: 1000px;
-	bottom: 500px;
-	padding-bottom: 500px;
-}
-
-
-
-#circle1 {
-	width: 100px;
-	height: 100px;
-	position: absolute;
-	background: #EF60A3;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-
-}
-
-#rectangle {
-	width: 10px;
-	height: 85px;
-	left: 7px;
-	top: 7px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle1 {
-	width: 10px;
-	height: 42.5px;
-	left: 7px;
-	top: 48px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle12 {
-	width: 10px;
-	height: 42.5px;
-	left: 7px;
-	top: 10px;
-	position: absolute;
-	background: #DBE442;
-}
-
-
-
-#rectangle2 {
-	width: 10px;
-	height: 85px;
-	left: 83px;
-	top: 7px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle22 {
-	width: 10px;
-	height: 42.5px;
-	left: 83px;
-	top: 48px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle23 {
-	width: 10px;
-	height: 42.5px;
-	left: 83px;
-	top: 10px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle3 {
-	width: 85px;
-	height: 10px;
-	left: 8px;
-	top: 7px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle32 {
-	width: 45px;
-	height: 10px;
-	left: 8px;
-	top: 7px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle4 {
-	width: 100px;
-	height: 10px;
-	left: px;
-	top: 48px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle42 {
-	width: 50px;
-	height: 10px;
-	left: 50px;
-	top: 48px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle43 {
-	width: 50px;
-	height: 10px;
-	left: 0px;
-	top: 48px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle5 {
-	width: 85px;
-	height: 10px;
-	left: 8px;
-	top: 82px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle6 {
-	width: 10px;
-	height: 100px;
-	left: 45px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle62 {
-	width: 10px;
-	height: 50px;
-	left: 45px;
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle7 {
-	width: 10px;
-	height: 100px;
-	left: 45px;
-	top: px;
-	transform: rotate(315deg);
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle72 {
-	width: 10px;
-	height: 55px;
-	left: 60px;
-	top: 40px;
-	transform: rotate(315deg);
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle73 {
-	width: 10px;
-	height: 50px;
-	left: 60px;
-	top: 45px;
-	transform: rotate(315deg);
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle8 {
-	width: 10px;
-	height: 100px;
-	left: 45px;
-	top: px;
-	transform: rotate(45deg);
-	position: absolute;
-	background: #DBE442;
-}
-
-#rectangle82 {
-	width: 10px;
-	height: 55px;
-	left: 60px;
-	top: 5px;
-	transform: rotate(45deg);
-	position: absolute;
-	background: #DBE442;
-}
-
-#circle2 {
-	width: 100px;
-	height: 100px;
-	position: absolute;
-	background: #EF60A3;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
 }
 

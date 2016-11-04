@@ -1,3 +1,8 @@
+#song{
+	height: 
+}
+
+
 .rectangle {
 	width: 200vh;
 	height: 253px;
@@ -31,46 +36,66 @@
 
 }
 
-#b{
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(0, 500px);
+  }
+  
+  80% {
+    transform: translate(0, -150px);
+  }
+}
+
+#r{
 	position: absolute;
 	left: 300px;
-	top: 310px;
+	top: 110px;
 	z-index: 1;
+	animation: nudge .3s linear infinite alternate;
 }
 
-#a{
+#o{
 	position: absolute;
 	left: 450px;
-	top: 310px;
+	top: 250px;
 	z-index: 1;
+	animation: nudge .2s linear infinite alternate;
 }
 
-#n{
+#c{
 	position: absolute;
 	left: 600px;
-	top:310px;
+	top:110px;
 	z-index: 1;
+	animation: nudge .5s linear infinite alternate;
 }
 
-#g{
+#k{
 	position: absolute;
 	left: 750px;
-	top:310px;
+	top:210px;
 	z-index: 1;
+	animation: nudge .3s linear infinite alternate;
 }
 
 #i{
 	position: absolute;
 	left: 900px;
-	top:310px;
+	top:180px;
 	z-index: 1;
+	animation: nudge .8s linear infinite alternate;
 }
 
 #n2{
 	position: absolute;
 	left: 1050px;
-	top:310px;
+	top:290px;
 	z-index: 1;
+	animation: nudge .7s linear infinite alternate;
 }
 
 #circle1{
