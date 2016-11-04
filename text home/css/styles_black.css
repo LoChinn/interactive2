@@ -95,7 +95,7 @@
 	left: 1050px;
 	top:290px;
 	z-index: 1;
-	animation: nudge .3s linear infinite alternate;
+	animation: nudge .25s linear infinite alternate;
 }
 
 #circle1{
