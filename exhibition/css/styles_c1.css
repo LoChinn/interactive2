@@ -1,0 +1,48 @@
+.container{
+	background: #28B1CA;
+	width: 1440px;
+	height: 1000px;
+	margin-top: -10px;
+	margin-left: -10px;
+	
+}
+
+#pic1{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 550px;
+	opacity: ;
+}
+
+#robo{
+position: absolute;
+	margin-left: 900px;
+	margin-top: 330px;
+	font-size: 30px;
+	color: white;
+	font-family: 'Bungee Inline', cursive;
+
+
+}
+
+#par{
+position: absolute;
+	margin-left: 900px;
+	margin-top: 430px;
+	font-size: 20px;
+	color: white;
+	font-family: Helvetica;
+
+
+}
+
+#love{
+	margin-top: -500px;
+	margin-left: 100px;
+	position: absolute;
+	font-size: 200px;
+	opacity: 0;
+}
+
+
+font-family: 'Roboto', sans-serif;
