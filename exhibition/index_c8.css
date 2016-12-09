@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>home page</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+  <link rel="stylesheet" href="css/styles_c8.css">
+  <link rel="stylesheet" href="js/main.js">
+  <link rel="stylesheet" href="images">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto" rel="stylesheet">
+</head>
+</html>
+
+<body>
+
+     <div class="container">
+
+      <div id="pic8">
+         <img src="images/13.jpg" style="width: 1000px; height: 800px">
+         </div>
+
+          <div id="picsmall">
+         <img src="images/13.jpg" style="width: 500px; height: 400px">
+         </div>

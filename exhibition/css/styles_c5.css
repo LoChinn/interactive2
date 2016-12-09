@@ -13,17 +13,28 @@ html {
 	
 }
 
-#pic1{
+
+#pic5{
 	position: absolute;
-	margin-top: 300px;
-	margin-left: 550px;
-	opacity: ;
+	margin-top: -290px;
+	margin-left: -20px;
+	opacity: .5;
+	
+	
+}
+
+#picsmall{
+	position: absolute;
+	margin-top: 280px;
+	margin-left: 20px;
+	
+
 }
 
 #robo{
 position: absolute;
-	margin-left: 900px;
-	margin-top: 330px;
+	margin-left: 850px;
+	margin-top: -1900px;
 	font-size: 30px;
 	color: white;
 	font-family: 'Bungee Inline', cursive;
@@ -33,8 +44,8 @@ position: absolute;
 
 #par{
 position: absolute;
-	margin-left: 900px;
-	margin-top: 430px;
+	margin-left: 850px;
+	margin-top: -1800px;
 	font-size: 20px;
 	color: white;
 	font-family: Helvetica;
@@ -43,8 +54,8 @@ position: absolute;
 }
 
 #love{
-	margin-top: -500px;
-	margin-left: 100px;
+	margin-top: 300px;
+	margin-left: 650px;
 	position: absolute;
 	font-size: 200px;
 	opacity: 0;

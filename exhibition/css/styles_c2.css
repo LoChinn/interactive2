@@ -1,7 +1,13 @@
+html {
+	overflow-y: hidden;
+	overflow-x: hidden;
+
+}
+
 .container{
 	background: #28B1CA;
-	width: 1440px;
-	height: 1000px;
+	width: 2000px;
+	height: 2000px;
 	margin-top: -10px;
 	margin-left: -10px;
 	
